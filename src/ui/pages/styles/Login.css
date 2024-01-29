@@ -1,0 +1,35 @@
+#login .view {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/inventario-inselmed.appspot.com/o/imagenes%2Fbackground.jpg?alt=media&token=fcac841a-7792-4ce7-b34e-72fc7e86ac84");
+  background-size: cover;
+  height: 100vh;
+}
+
+#login .card {
+  background-color: rgba(229, 228, 255, 0.2);
+}
+#login h6 {
+  line-height: 1.7;
+}
+
+#login .form-check {
+  margin-bottom: 0 !important;
+}
+#login .md-form label {
+  color: #ffffff;
+}
+#login .md-form input[type="text"]:focus:not([readonly]) + label,
+#login .md-form input[type="password"]:focus:not([readonly]) + label,
+#login .md-form input[type="email"]:focus:not([readonly]) + label {
+  color: #8edef8;
+}
+#login .md-form input[type="text"]:focus:not([readonly]),
+#login .md-form input[type="password"]:focus:not([readonly]),
+#login .md-form input[type="email"]:focus:not([readonly]) {
+  border-bottom: 1px solid #8edef8;
+  box-shadow: 0 1px 0 0 #8edef8;
+}
+
+.link-letra {
+  color: #ffffff;
+  text-decoration: underline;
+}
